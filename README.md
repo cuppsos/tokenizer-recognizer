@@ -1,2 +1,2 @@
 # tokenizer-recognizer
-A C based front end for a simple compiler
+A C-based front-end for a simple compiler. The Tokenizer reads source text character-by-character breaking it into input tokens using enums and structs defined in a header file without relying on regex libraries. The output from the Tokenizer is then read by the Recognizer which implements a recursive-descent parser guided by an EBNF grammar which validates syntax and checks for errors.
